@@ -24,8 +24,8 @@ const Contact = () => {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const response = await axios.post('https://formspree.io/f/mwpvlpva');
-      if (response === 200) {
+      const response = await axios.post('https://formspree.io/f/xwpebkdg', formData);
+      if (response.status === 200) {
         setFormData({ name: '', email: '', subject: '', message: '' });
         setStatus('Message sent successfully!');
       } else {
@@ -33,6 +33,7 @@ const Contact = () => {
       }
     } catch (error) {
       setStatus('Error sending message. Please check your connection.');
+      console.log(error)
     }
   };
 
