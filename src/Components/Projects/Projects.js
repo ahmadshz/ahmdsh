@@ -21,7 +21,7 @@ const Projects = () => {
     <div className="min-h-screen w-full px-8 sm:px-24 xl:px-80 pt-32 mb-20">
       <h1 className="text-center text-5xl">My Projects</h1>
       <h3 className="text-center text-gray-400 text-xl my-11">
-        Search projects by title or filter by category
+        Filter by category
       </h3>
       <select
         value={selectedCategory}
