@@ -8,11 +8,13 @@ const AboutMe = () => {
         <div className=' w-full min-h-screen' >
             <div
                 className='min-h-screen w-full px-8 sm:px-24 xl:px-80 pb-20 pt-40 flex flex-wrap md:flex-nowrap justify-center items-center gap-10 '>
+                <div className='w-[300px] h-300px]'>
                 <motion.img
                     initial={{ scale: 0.5, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5 }}
-                    className='rounded-lg shadow-xl' src={img} alt='' />
+                    className='rounded-lg shadow-xl h-full w-full' src={img} alt='' />
+                    </div>
                 <motion.p
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
