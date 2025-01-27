@@ -8,7 +8,7 @@ const ContactDetails = () => {
     return (
         <motion.div
             initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className='w-full lg:w-1/2   order-1 lg:order-2 pt-8'>
             <h1 className='text-2xl'>Contact Details</h1>

@@ -7,7 +7,7 @@ const Skills = () => {
     const showSkills = SKILLS.map((item, index) => (
         <motion.div
             initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             key={index}
             className='min-w-[250px]  bg-[#EEF2FF]  shadow-lg  text-gray-700  p-4 rounded-lg flex justify-between items-center
