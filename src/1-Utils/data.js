@@ -5,16 +5,19 @@ import dallal from '../assests/projects/dallal.png'
 import bite from '../assests/projects/gegabite.png'
 import villahouse from '../assests/projects/villahouse.png'
 import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
-import { RiTailwindCssFill } from 'react-icons/ri'
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri'
 import { SiReactrouter, SiRedux } from 'react-icons/si'
 import { IoGitBranchOutline } from 'react-icons/io5'
 import { TbBrandFramerMotion } from 'react-icons/tb'
+import { BiLogoTypescript } from 'react-icons/bi'
 
 export const SKILLS = [
   { skill: 'Html', icon: <FaHtml5 /> },
   { skill: 'Css', icon: <FaCss3 /> },
   { skill: 'Js', icon: <FaJs /> },
+  { skill: 'Typescript', icon: <BiLogoTypescript /> },
   { skill: 'React Js', icon: <FaReact /> },
+  { skill: 'Next Js', icon: <RiNextjsFill /> },
   { skill: 'React-Router-Dom', icon: <SiReactrouter /> },
   { skill: 'Framer Motion', icon: <TbBrandFramerMotion /> },
   { skill: 'Redux Toolkit', icon: <SiRedux /> },
@@ -26,8 +29,6 @@ export const SKILLS = [
 
 
 export const MyProject = [
-  
- 
   {
     id: 0,
     category: ['Html & Css'],
