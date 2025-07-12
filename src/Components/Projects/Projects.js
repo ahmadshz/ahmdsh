@@ -19,7 +19,7 @@ const Projects = () => {
         className="mt-20 flex flex-wrap justify-center gap-12"
       >
         <AnimatePresence mode="wait">
-        <div className='grid xl:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
           {MyProject.map((project, index) => (
             <CardProject
               key={project.name}

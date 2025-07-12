@@ -3,7 +3,6 @@ import Sudoku from '../assests/projects/Sudoku-Game.png'
 import Ecommerce from '../assests/projects/ecommerce.png'
 import dallal from '../assests/projects/dallal.png'
 import bite from '../assests/projects/gegabite.png'
-import villahouse from '../assests/projects/villahouse.png'
 import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri'
 import { SiReactrouter, SiRedux } from 'react-icons/si'
@@ -71,13 +70,7 @@ export const MyProject = [
     imgPath: bite,
     link: 'https://gega-bite.vercel.app',
   },
-  {
-    id: 5,
-    name: 'Villahouse',
-    desc: "A professional real estate website I developed for VillaHouse in the UAE, specializing in showcasing luxury villas and homes. I focused on user experience, modern design, and full responsiveness across all devices.",
-    imgPath: villahouse,
-    link: 'https://villahouse.ae/',
-  },
+ 
  
  
 ];
